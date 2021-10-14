@@ -5,6 +5,21 @@ VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoAPI", "ToDoAPI\ToDoAPI.csproj", "{1A0B8622-1BBD-44C2-9E77-B021DC18BD21}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wwwroot", "wwwroot", "{F1D90DBE-5FF4-4F63-ACE6-47BEAECDA0B6}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{D72C3A49-9AA6-4F75-993F-08E7BA2E4EC1}"
+	ProjectSection(SolutionItems) = preProject
+		site.css = site.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{3B5FF609-62D4-4FC1-95CB-FE9AD2A2D0BA}"
+	ProjectSection(SolutionItems) = preProject
+		site.js = site.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +33,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D72C3A49-9AA6-4F75-993F-08E7BA2E4EC1} = {F1D90DBE-5FF4-4F63-ACE6-47BEAECDA0B6}
+		{3B5FF609-62D4-4FC1-95CB-FE9AD2A2D0BA} = {F1D90DBE-5FF4-4F63-ACE6-47BEAECDA0B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C98FB912-997F-4E54-A51C-9E235A214D92}
